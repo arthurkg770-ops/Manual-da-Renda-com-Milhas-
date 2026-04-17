@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Manual da Renda com Milhas - Viaje de graça e lucre com milhas do cartão">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()">
+
+<title>Manual da Renda com Milhas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+background:#000;
+color:#fff;
+font-family:Inter,sans-serif;
+overflow-x:hidden;
+}
+
+.container{max-width:1200px;margin:auto;padding:20px}
+
+header{
+position:fixed;
+width:100%;
+background:rgba(0,0,0,.85);
+backdrop-filter:blur(12px);
+border-bottom:1px solid rgba(212,175,55,.3);
+z-index:999;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 0;
+}
+
+.logo{
+font-family:Playfair Display;
+font-size:26px;
+font-weight:700;
+color:#d4af37;
+}
+
+.btn{
+background:linear-gradient(135deg,#d4af37,#ffe49a);
+color:#000;
+padding:18px 36px;
+border-radius:10px;
+font-weight:700;
+text-decoration:none;
+transition:.3s;
+box-shadow:0 20px 70px rgba(212,175,55,.35);
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 30px 90px rgba(212,175,55,.55);
+}
+
+.hero{
+padding:180px 0 120px;
+background:
+radial-gradient(circle at 20% 20%, rgba(212,175,55,.15), transparent 40%),
+radial-gradient(circle at 80% 0%, rgba(212,175,55,.12), transparent 40%),
+#000;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:1.1fr .9fr;
+gap:50px;
+align-items:center;
+}
+
+.hero h1{
+font-size:56px;
+font-family:Playfair Display;
+margin-bottom:20px;
+}
+
+.hero p{
+color:#bbb;
+font-size:18px;
+margin-bottom:25px;
+}
+
+.price-box{margin:25px 0}
+.old{color:#777;text-decoration:line-through}
+.new{font-size:56px;color:#d4af37;font-weight:800}
+
+.ebook{
+height:470px;
+border-radius:18px;
+border:1px solid #d4af37;
+background:linear-gradient(145deg,#000,#111);
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:40px;
+font-family:Playfair Display;
+font-size:32px;
+color:#d4af37;
+box-shadow:0 60px 160px rgba(212,175,55,.35);
+animation:float 6s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-15px)}
+}
+
+.badge{
+display:inline-block;
+background:#d4af37;
+color:#000;
+padding:6px 14px;
+border-radius:20px;
+font-size:12px;
+font-weight:600;
+margin-bottom:15px;
+}
+
+.section{
+padding:100px 0;
+border-top:1px solid rgba(212,175,55,.15);
+}
+
+.section h2{
+text-align:center;
+font-family:Playfair Display;
+font-size:40px;
+margin-bottom:50px;
+color:#d4af37;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.card{
+background:#050505;
+padding:30px;
+border-radius:16px;
+border:1px solid rgba(212,175,55,.2);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-12px);
+border:1px solid #d4af37;
+box-shadow:0 30px 80px rgba(212,175,55,.25);
+}
+
+.card h3{color:#d4af37;margin-bottom:10px}
+
+.countdown{
+font-size:32px;
+color:#d4af37;
+font-weight:700;
+margin:15px 0;
+}
+
+.security{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+margin-top:25px;
+color:#aaa;
+}
+
+.proof{
+text-align:center;
+margin-top:20px;
+color:#999;
+font-size:14px;
+}
+
+footer{
+padding:40px 0;
+text-align:center;
+color:#666;
+border-top:1px solid rgba(212,175,55,.15);
+}
+
+@media(max-width:900px){
+.hero-grid{grid-template-columns:1fr}
+.hero h1{font-size:36px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container nav">
+<div class="logo">Renda com Milhas</div>
+<a href="https://pay.kiwify.com.br/4zEgdx3" class="btn" rel="noopener noreferrer">Comprar</a>
+</div>
+</header>
+
+<section class="hero">
+<div class="container hero-grid">
+
+<div>
+<div class="badge">GUIA PREMIUM</div>
+<h1>Viaje de Graça e Lucre com Milhas do Cartão</h1>
+<p>Método completo para acumular milhas, viajar sem pagar passagens e gerar renda extra todos os meses.</p>
+
+<div class="price-box">
+<div class="old">De R$ 49,90</div>
+<div class="new">R$ 19,90</div>
+</div>
+
+<div class="countdown" id="timer">Oferta termina em: 10:00</div>
+
+<a href="https://pay.kiwify.com.br/4zEgdx3" class="btn">COMPRAR AGORA</a>
+
+<div class="security">
+<span>🔒 Pagamento Seguro</span>
+<span>⚡ Acesso Imediato</span>
+<span>✔ Garantia 7 Dias</span>
+</div>
+
+<div class="proof">+1.284 pessoas já baixaram este eBook</div>
+
+</div>
+
+<div class="ebook">
+Manual da<br>Renda com<br>Milhas
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<h2>O Que Você Vai Aprender</h2>
+<div class="grid">
+<div class="card"><h3>Acumular Milhas</h3><p>Ganhe milhas mesmo gastando pouco.</p></div>
+<div class="card"><h3>Viajar de Graça</h3><p>Emita passagens sem pagar.</p></div>
+<div class="card"><h3>Lucrar com Milhas</h3><p>Venda milhas e gere renda.</p></div>
+<div class="card"><h3>Cartões Ideais</h3><p>Melhores cartões para pontuar.</p></div>
+<div class="card"><h3>Promoções Secretas</h3><p>Bônus até 120%.</p></div>
+<div class="card"><h3>Estratégia Profissional</h3><p>Método completo.</p></div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container" style="text-align:center">
+<h2>Oferta por Tempo Limitado</h2>
+<p>De R$49,90 por apenas R$19,90 hoje</p>
+<br>
+<a href="https://pay.kiwify.com.br/4zEgdx3" class="btn">GARANTIR MEU ACESSO</a>
+</div>
+</section>
+
+<footer>
+<div class="container">
+© Manual da Renda com Milhas - Todos os direitos reservados
+</div>
+</footer>
+
+<script>
+var time=600;
+setInterval(function(){
+var min=Math.floor(time/60);
+var sec=time%60;
+document.getElementById('timer').innerHTML="Oferta termina em: "+min+":"+(sec<10?"0":"")+sec;
+time--;
+if(time<0) time=600;
+},1000);
+</script>
+
+</body>
+</html>
